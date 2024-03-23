@@ -1,0 +1,69 @@
+.library-nss-sports-section{
+    height: 350px;
+    width: 90vw;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+
+}
+.each-div-sports-section {
+    width: 33.33%;
+}
+.library-img{
+    position: absolute;
+    height: 100%;
+    width: 33.33%;
+}
+
+.about-library{
+    height: 40%;
+    width:33.33%;
+    position: absolute;
+    background-color: rgb(193, 49, 49);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    opacity: 0.8;
+    display: none;
+}
+
+.nss-img{
+    position: absolute;
+    height: 100%;
+    width: 33.33%;
+
+}
+.about-nss{
+    height: 40%;
+    width:33.33%;
+    position: absolute;
+    background-color: rgb(193, 49, 49);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    opacity: 0.8;
+    display: none;
+}
+.sports-img{
+    position: absolute;
+    height: 100%;
+    width: 33.33%;
+
+}
+.about-sports{
+    height: 40%;
+    width:33.33%;
+    position: absolute;
+    background-color: rgb(193, 49, 49);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    opacity: 0.8;
+    display: none;
+}
+
+.libraryLink {
+    height: 30px;
+    color: white;
+}

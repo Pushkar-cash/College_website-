@@ -1,0 +1,73 @@
+.principles-desk {
+    border: 2px solid black;
+    height: 300px;
+    width: 90vw;
+    margin: 20px auto;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.principle-image-container {
+    height: 100%;
+    position: relative;
+    width: 40%;
+}
+
+.principle-image-container img {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.about-principle {
+    display: flex;
+    gap: 0%;
+    flex-direction: column;
+    height: 100%;
+    width: 66%;
+    position: relative;
+}
+
+.about-principle p {
+    text-align: start;
+    font-size: 14px;
+    padding: 5px;
+    margin: 15px 0px 0px 13px;
+}
+
+.about-principle h4 {
+    text-decoration: solid;
+    text-transform: capitalize;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.principle-Heading {
+    margin: 28px 0px -13px 64px;
+}
+
+.about-principle h5 {
+    text-align: end;
+    font-weight: 800;
+    margin-right: 30px;
+}
+
+.infoOverPrincipleImage {
+    display: none;
+    position: absolute;
+    top: 70%;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color:rgb(193, 49, 49);
+    opacity: 0.8;
+    color: white;
+    padding: 2px 0px 2px 0px;
+}
+.infoOverPrincipleImage p{
+    margin: 7px auto;
+}
+.about-principle p{
+    font-weight: 300;
+}

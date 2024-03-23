@@ -1,0 +1,10 @@
+#news{
+
+    height: 50px;
+    background-color: black;
+    color: wheat;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}

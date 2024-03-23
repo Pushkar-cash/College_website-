@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    display: flex;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    text-align: start;
+}
+footer h2{
+    text-transform: capitalize;
+}
+
+footer p{
+    font-weight: 300;
+    padding: 3px;
+    font-size: 13px;
+}
+
+footer p:hover{
+    text-decoration: underline;
+}
+.impLinks1stRow{
+    width: 50%;
+}
+
+.impLinks2ndRow{
+    width: 50%;
+}
+i{
+    text-decoration: none;
+    font: none;
+    font-family: none;
+}
+.quick-links-main-box{
+    display: flex;
+    border-right: 1px solid white;
+    width: 35%;
+}
+.quick-links-main-box a:hover{
+    color: white;
+
+}
+.quick-links-main-box p{
+    margin: 8px 0px 0px 55px;
+}
+.quick-links-main-box h4{
+
+    width: 60%;
+    text-align: center;
+    padding: 8px 0px;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+
+
+.findUs{
+    display: flex;
+    flex-direction: column;
+    width:40% ;
+    border-right: 1px solid white;
+
+}
+.findUs h4{
+    width: 60%;
+    text-align: center;
+    padding: 9px 0px;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+.findUs p{
+    margin: 10px 0px 5px 110px;
+    letter-spacing: 2px;
+    text-align: start;
+    font-size: 13px;
+}
+
+.connect-with-us{
+    width:25% ;
+
+}
+.connect-with-us h4{
+    width: 60%;
+    text-align: center;
+    padding: 9px 0px;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+.connect-with-us h2{
+    margin: 20px auto 0px 50px;
+}
+.connect-us-texts{
+    margin: auto auto auto 10px;
+    text-align: center;
+    font-size: 17px;
+}

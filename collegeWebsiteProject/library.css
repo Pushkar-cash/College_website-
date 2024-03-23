@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.body {
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 30px;
+    width: 85vw;
+
+}
+
+.mainheading {
+    text-align: center;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+.resources-links {
+    display: flex;
+    gap: 10px;
+}
+
+.resources-links {
+    display: flex;
+    gap: 10px;
+}
+
+.resources-links button {
+    width: 300px;
+    padding: 4px;
+    height: fit-content;
+}
+.resources-links button:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+.firstlinkBox {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondlinkBox {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,31 @@
+#important-links{
+    height: 100px;
+    box-sizing: border-box;
+    width: 87vw;
+    margin: 20px auto 30px auto;
+    text-align: start;
+    border: 0.6px solid black;
+    overflow: hidden;
+}
+#important-links h4{
+    margin: 5px 0px 5px 30px;
+}
+.link-images{
+    display: flex;
+    height: 87%;
+}
+.important-links-image{
+    height:80%;
+    width: 16.666%;
+}
+.important-links-image a{
+    width: 100%;
+
+}
+.important-links-image img{
+    height: 100%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 100%;
+}
+

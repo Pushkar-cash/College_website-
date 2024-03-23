@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+
+}
+
+header {
+    color: rgb(255, 255, 255);
+    background-color: black;
+   
+}
+
+.collegelogo {
+    margin-left: 10px;
+}
+
+i{
+    margin-left: 10px;
+}
+#navbar {
+    z-index: 100;
+    top: 0;
+    text-transform: uppercase;
+    display: flex;
+    height: 13vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar ul {
+    float: right;
+    width: 100%;
+}
+
+.main-nav-elemtents {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 16.1%;
+    font-weight: 500;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    list-style: none;
+    padding: 11px 0px;
+    display: inline-block;
+
+}
+
+#navbar ul li a {
+    text-align: center;
+    color: white;
+    display: block;
+    text-decoration: none;
+    height: 20px;
+    font-size: 14.7px;
+}
+
+#navbar ul li ul{
+    display: flex;
+    display: none;
+    padding: 5px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 166px;
+    margin: 10px auto;
+    width: 100%;
+    z-index: 6;
+}
+#navbar ul li ul a{
+    font-size: 12px;
+    height: 20%;
+    border: 1px solid black;
+}
+#navbar ul li ul a:hover{
+    border-bottom:0.1px solid white;
+
+}
+.dropdown-nav{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    width: 100%;
+    list-style: none;
+    margin: 15px auto;
+    padding: 5px auto;
+   border-bottom: 2px solid rgb(0, 0, 0);
+    z-index: 6;
+}
+.main-nav-elemtents:hover{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+
+#navbar a i {
+    margin-right: 5px;
+}
